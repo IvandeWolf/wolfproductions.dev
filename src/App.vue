@@ -93,7 +93,7 @@
               <rect x="118" width="404" height="784" fill="url(#4f4f415c-a0e9-44c2-9601-6ded5a34a13e)" />
             </svg>
             <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-xs">
-              <img class="relative block w-full rounded-lg overflow-hidden " :src="ivan" alt="" />
+              <img class="relative block w-full rounded-lg overflow-hidden" :src="ivan" alt="" />
             </div>
           </div>
         </div>
