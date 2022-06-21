@@ -72,13 +72,13 @@
                 <span class="block text-red-600">Ivan de Wolf</span>
               </span>
             </h1>
-            <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">I'm a web developer and will help you make your idea reality. I've done my share of projects where I mainly focus on developing different websites and interfaces.</p>
+            <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">I'm a web developer and will help you make your idea reality. I've done some projects where I mainly focus on developing different websites and interfaces.</p>
             <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
               <p class="text-base font-medium text-gray-900">Get into contact to realise your next idea!</p>
               <form action="#" method="POST" class="mt-3 sm:flex">
                 <label for="email" class="sr-only">Email</label>
-                <input type="email" name="email" id="email" class="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-red-500 focus:border-red-500 sm:flex-1 border-gray-300" placeholder="Enter your email" />
-                <button type="submit" class="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:ml-3 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">Contact me</button>
+                <!-- <input type="email" name="email" id="email" class="block w-full py-3 text-base rounded-md placeholder-gray-500 shadow-sm focus:ring-red-500 focus:border-red-500 sm:flex-1 border-gray-300 sm:mr-3" placeholder="Enter your email" /> -->
+                <button type="submit" class="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">Contact me</button>
               </form>
             </div>
           </div>
@@ -148,7 +148,7 @@ import ivan from './assets/ivan.jpg'
 
 import periodictable from './assets/screenshots/periodic_table.jpg'
 import nsplanner from './assets/screenshots/ns_reisplanner.jpg'
-import ticketvise from './assets/screenshots/ticketvise.png'
+import ticketvise from './assets/screenshots/ticketvise.jpg'
 import tlc_era from './assets/screenshots/tlc_era.jpg'
 import weerwolven from './assets/screenshots/weerwolven.png'
 import formula1 from './assets/screenshots/formula1.jpg'
@@ -163,20 +163,6 @@ const navigation = [
 
 const posts = [
   {
-    title: 'Interactive Periodic Table',
-    href: 'https://periodictable.ivandewolf.nl/',
-    category: { name: 'Interactive', href: '#' },
-    description: 'Interactive tool to show the periodic table and its elements. Fun project I did in my spare time.',
-    imageUrl: periodictable
-  },
-  {
-    title: 'NS departure times',
-    href: 'http://ns.ivandewolf.nl/',
-    category: { name: 'API', href: '#' },
-    description: 'Using the NS API to show the departure times of the NS, just like they do on their departure boards.',
-    imageUrl: nsplanner
-  },
-  {
     title: 'TicketVise',
     href: 'https://ticketvise.com/',
     category: { name: 'Co-Founder', href: '#' },
@@ -189,6 +175,20 @@ const posts = [
     category: { name: 'Developer', href: '#' },
     description: 'Project for the University of Amsterdam. The tool is used by teachers to help them design their classes digitally.',
     imageUrl: tlc_era
+  },
+  {
+    title: 'Interactive Periodic Table',
+    href: 'https://periodictable.ivandewolf.nl/',
+    category: { name: 'Interactive', href: '#' },
+    description: 'Interactive tool to show the periodic table and its elements. Fun project I did in my spare time.',
+    imageUrl: periodictable
+  },
+  {
+    title: 'NS departure times',
+    href: 'http://ns.ivandewolf.nl/',
+    category: { name: 'API', href: '#' },
+    description: 'Using the NS API to show the departure times of the NS, just like they do on their departure boards.',
+    imageUrl: nsplanner
   },
   {
     title: 'Weerwolven online',
