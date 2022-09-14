@@ -275,7 +275,7 @@
           <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Creating memories that last forever</h2>
           <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">I love to record memories from all kinds of different moments from people. From a concert, gala, festival, and vacation. You can click on the picture to see that entire album.</p>
         </div>
-        <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-4 lg:max-w-none">
+        <div class="mt-12 max-w-lg mx-auto grid gap-5 grid-cols-2 lg:grid-cols-4 lg:max-w-none">
           <a target="_blank" rel="noopener noreferrer" href="https://wolfproductions.photos/62b9d3530c2dd7b6b0cf54fa/62be091ca6005a34897d4ca1" class="flex flex-col row-span-2 rounded-lg shadow-lg overflow-hidden">
             <div class="flex-shrink-0">
               <img class="w-full aspect-[2/3] object-cover" :src="photo1" />
