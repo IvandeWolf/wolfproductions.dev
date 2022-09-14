@@ -19,7 +19,7 @@
             <div class="flex items-center justify-between w-full md:w-auto">
               <a href="#">
                 <span class="sr-only">WolfProductions</span>
-                <img class="h-8 w-auto sm:h-10" :src="logo" alt="WolfProductions logo" />
+                <img class="h-6 w-auto sm:h-8" :src="logo" alt="WolfProductions logo" />
               </a>
               <div class="-mr-2 flex items-center md:hidden">
                 <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-500">
@@ -222,14 +222,14 @@
                     <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                       <MicrophoneIcon class="h-6 w-6" aria-hidden="true" />
                     </div>
-                    <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Demo 1</p>
+                    <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Demo</p>
                   </dt>
                   <dd class="mt-0 ml-16 text-base text-gray-500">
-                    <p class="mb-1">This is the first demo with recordings of a commercial for a vacation spot (corendon), coffee (Douwe Egberts), a narrative about a research television program (Zembla), commercial for health insurance check (Independer), and an education video narrative (Athene).</p>
+                    <p class="mb-1">This is a demo with recordings of a commercial for a vacation spot (corendon), coffee (Douwe Egberts), a narrative about a research television program (Zembla), commercial for health insurance check (Independer), and an education video narrative (Athene).</p>
                     <audio controls="controls" class="w-full h-7" :src="demo1" />
                   </dd>
                 </div>
-                <div class="relative">
+                <!-- <div class="relative">
                   <dt>
                     <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
                       <MicrophoneIcon class="h-6 w-6" aria-hidden="true" />
@@ -240,7 +240,7 @@
                     <p class="mb-1">This is the second demo with recordings of a commercial for a vacation spot, garden shop, and a narative about DNA.</p>
                     <audio controls="controls" class="w-full h-7" :src="demo2" />
                   </dd>
-                </div>
+                </div> -->
               </dl>
             </div>
 
@@ -394,7 +394,7 @@
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
 import { MenuIcon, XIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon, MicrophoneIcon } from '@heroicons/vue/outline'
 
-import logo from './assets/white_text_bg.svg'
+import logo from './assets/dark_text.svg'
 import ivan from './assets/ivan.jpg'
 import voice from './assets/voice.jpg'
 import photo from './assets/photo.jpg'
