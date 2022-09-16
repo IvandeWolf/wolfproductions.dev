@@ -198,7 +198,7 @@
         <div class="text-center">
           <h2 id="voice" class="text-base font-semibold tracking-wider text-red-600 uppercase">Voice actor</h2>
           <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Using my voice to tell a story</h2>
-          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Let's give your project a professional voice-over. Stemacteren.nl&nbsp;Certified® with my own studio at home.</p>
+          <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">Let's give your project a professional voice-over.<br>I have my own ISOVOX 2 home studio.</p>
         </div>
 
         <svg class="hidden lg:block absolute right-full transform translate-x-1/2 translate-y-12" width="404" height="784" fill="none" viewBox="0 0 404 784" aria-hidden="true">
@@ -214,7 +214,7 @@
           <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div class="lg:col-start-2">
               <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Demo recordings</h3>
-              <p class="mt-3 text-lg text-gray-500">These are some demo recordings of my voice. Let's hear if my voice matches your next project!</p>
+              <p class="mt-3 text-lg text-gray-500">These are some demo recordings of my voice. My voice suits a wide range of projects, from commercial to narrative and corperate. Let's hear if my voice matches your next project!</p>
 
               <dl class="mt-10 space-y-10">
                 <div class="relative">
@@ -242,6 +242,12 @@
                   </dd>
                 </div> -->
               </dl>
+
+              <div class="mx-auto max-w-7xl p-4">
+                <div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
+                  <img class="h-32" :src="stemacteren" alt="Tuple">
+                </div>
+              </div>
             </div>
 
             <div class="mt-10 -mx-4 relative lg:mt-0 lg:col-start-1">
@@ -400,6 +406,7 @@ import voice from './assets/voice.jpg'
 import photo from './assets/photo.jpg'
 import demo1 from './assets/audio/demo1.wav'
 import demo2 from './assets/audio/demo2.mp3'
+import stemacteren from './assets/StemacterenCertified transparant.png'
 
 import periodictable from './assets/screenshots/periodic_table.jpg'
 import nsplanner from './assets/screenshots/ns_reisplanner.jpg'
