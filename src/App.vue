@@ -110,7 +110,7 @@
       </div>
       <div class="relative max-w-7xl mx-auto">
         <div class="text-center">
-          <h2 id="showcase" class="text-base font-semibold tracking-wider text-red-600 uppercase">Software engineer</h2>
+          <h2 id="software" class="text-base font-semibold tracking-wider text-red-600 uppercase">Software engineer</h2>
           <h2 class="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">Software to experience</h2>
           <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">These projects are some of the work I did. Some of them for a client and some are just for personal experience.</p>
         </div>
@@ -415,6 +415,7 @@ import tlc_era from './assets/screenshots/tlc_era.jpg'
 import weerwolven from './assets/screenshots/weerwolven.png'
 import formula1 from './assets/screenshots/formula1.jpg'
 import ufo_stam from './assets/screenshots/ufo-stam.jpg'
+import digiq from './assets/screenshots/digiq.jpg'
 
 import photo1 from './assets/images/blue_king-102.jpg'
 import photo2 from './assets/images/diplomauitreiking_2021-138.jpg'
@@ -466,6 +467,13 @@ const softwareProjects = [
     imageUrl: ticketvise
   },
   {
+    title: 'DigIQ',
+    href: 'https://www.dedigiq.nl',
+    category: { name: 'Developer', href: '#' },
+    description: 'Project for the University of Amsterdam. This tool allows you to test your digital knowledge and skills.',
+    imageUrl: digiq
+  },
+  {
     title: 'TLC ERA-tool',
     href: 'https://tlc-uva.github.io/educational-redesign-aid/',
     category: { name: 'Developer', href: '#' },
@@ -488,9 +496,9 @@ const softwareProjects = [
   },
   {
     title: 'Weerwolven online',
-    href: '',
+    href: 'https://weerwolven.app',
     category: { name: 'Creator', href: '' },
-    description: 'Based on the cardgame Weerwolven, this is a webapp to play the game online.',
+    description: 'Based on the cardgame Weerwolven, this is a webapp to play the game online in case you forgot the cards.',
     imageUrl: weerwolven
   },
   {
