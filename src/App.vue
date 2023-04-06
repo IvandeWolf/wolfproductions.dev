@@ -214,7 +214,9 @@
           <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div class="lg:col-start-2">
               <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">Demo recordings</h3>
-              <p class="mt-3 text-lg text-gray-500">These are some demo recordings of my voice. My voice suits a wide range of projects, from commercial to narrative and corperate. Let's hear if my voice matches your next project!</p>
+              <p class="my-3 text-lg text-gray-500">These are some demo recordings of my voice. My voice suits a wide range of projects, from commercial to narrative and corperate. Let's hear if my voice matches your next project!</p>
+
+              <a href="https://www.14voices.com/stemmen/ivan/" class="mt-3 w-full px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:mt-0 sm:flex-shrink-0 sm:inline-flex sm:items-center sm:w-auto">Book me</a>
 
               <dl class="mt-10 space-y-10">
                 <div class="relative">
