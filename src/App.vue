@@ -133,6 +133,9 @@
                   <p class="mt-3 text-base text-gray-500">
                     {{ post.description }}
                   </p>
+                  <p class="mt-2 text-sm italic text-gray-400">
+                    {{ post.extra }}
+                  </p>
                 </div>
               </div>
             </div>
@@ -473,6 +476,7 @@ const softwareProjects = [
     href: 'https://www.dedigiq.nl',
     category: { name: 'Developer', href: '#' },
     description: 'Project for the University of Amsterdam. This tool allows you to test your digital knowledge and skills.',
+    extra: 'Design by www.blitzontwerpt.nl',
     imageUrl: digiq
   },
   {
@@ -480,6 +484,7 @@ const softwareProjects = [
     href: 'https://tlc-uva.github.io/educational-redesign-aid/',
     category: { name: 'Developer', href: '#' },
     description: 'Project for the University of Amsterdam. The tool is used by teachers to help them design their classes digitally.',
+    extra: 'Design by Marieke Schoutsen',
     imageUrl: tlc_era
   },
   {
